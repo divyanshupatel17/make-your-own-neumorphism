@@ -73,6 +73,12 @@ This project is open-source and available under the MIT License.
 - Color manipulation algorithms adapted from various open-source projects.
 
 ## Contact
+
+Instagram: @patel_divyanshu_
+LinkedIn: Divyanshu Patel
+GitHub: divyanshupatel17
+Email: itzdivyanshupatel@gmail.com
+
 For any queries or suggestions, please open an issue in the GitHub repository.
 
 ---
