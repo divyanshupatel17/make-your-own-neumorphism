@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism UI : Make your own</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card preview">
+            <h2>Preview</h2>
+            <div class="preview-container">
+                <div class="neumorphism-box"></div>
+                <div class="light-options">
+                    <div class="light-option" data-direction="top-left"></div>
+                    <div class="light-option" data-direction="top-right"></div>
+                    <div class="light-option" data-direction="bottom-right"></div>
+                    <div class="light-option" data-direction="bottom-left"></div>
+                </div>
+            </div>
+            <textarea class="code-output" readonly></textarea>
+            <button id="copyButton">Copy CSS</button>
+        </div>
+        <div class="card controls">
+            <h2>Neumorphism Controls</h2>
+            <div class="control-group">
+                <div class="color-picker-container">
+                    <label for="colorPicker">Pick a color:</label>
+                    <input type="color" id="colorPicker" value="#e0e0e0">
+                    <input type="text" id="colorCode" value="#e0e0e0" placeholder="Enter color code">
+                </div>
+                <div class="slider-container">
+                    <label for="sizeSlider">Size: <span class="slider-value"></span></label>
+                    <input type="range" id="sizeSlider" min="50" max="300" value="200">
+                </div>
+                <div class="slider-container">
+                    <label for="radiusSlider">Radius: <span class="slider-value"></span></label>
+                    <input type="range" id="radiusSlider" min="0" max="150" value="20">
+                </div>
+                <div class="slider-container">
+                    <label for="distanceSlider">Distance: <span class="slider-value"></span></label>
+                    <input type="range" id="distanceSlider" min="0" max="50" value="20">
+                </div>
+                <div class="slider-container">
+                    <label for="intensitySlider">Intensity: <span class="slider-value"></span></label>
+                    <input type="range" id="intensitySlider" min="0" max="1" step="0.01" value="0.15">
+                </div>
+            </div>
+            <div class="control-group">
+                <label>Shape:</label>
+                <div class="shape-options">
+                    <div class="shape-option active" data-shape="flat">
+                        <div class="shape-preview flat"></div>
+                        <span>Flat</span>
+                    </div>
+                    <div class="shape-option" data-shape="concave">
+                        <div class="shape-preview concave"></div>
+                        <span>Concave</span>
+                    </div>
+                    <div class="shape-option" data-shape="convex">
+                        <div class="shape-preview convex"></div>
+                        <span>Convex</span>
+                    </div>
+                    <div class="shape-option" data-shape="pressed">
+                        <div class="shape-preview pressed"></div>
+                        <span>Pressed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
