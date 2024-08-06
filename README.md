@@ -75,10 +75,10 @@ This project is open-source and available under the MIT License.
 ## Contact
 
 
-Instagram: @patel_divyanshu_ \n
-LinkedIn: Divyanshu Patel \n
-GitHub: divyanshupatel17 \n
-Email: itzdivyanshupatel@gmail.com \n
+Instagram: @patel_divyanshu_ 
+LinkedIn: Divyanshu Patel
+GitHub: divyanshupatel17 
+Email: itzdivyanshupatel@gmail.com 
 
 For any queries or suggestions, please open an issue in the GitHub repository.
 
